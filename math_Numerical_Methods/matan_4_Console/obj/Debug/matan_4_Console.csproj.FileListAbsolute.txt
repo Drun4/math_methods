@@ -1,0 +1,7 @@
+D:\Visual_Studio\_METORY_NUMERYCZNE\math_Numerical_Methods\matan_4_Console\bin\Debug\matan_4_Console.exe.config
+D:\Visual_Studio\_METORY_NUMERYCZNE\math_Numerical_Methods\matan_4_Console\bin\Debug\matan_4_Console.exe
+D:\Visual_Studio\_METORY_NUMERYCZNE\math_Numerical_Methods\matan_4_Console\bin\Debug\matan_4_Console.pdb
+D:\Visual_Studio\_METORY_NUMERYCZNE\math_Numerical_Methods\matan_4_Console\obj\Debug\matan_4_Console.csproj.AssemblyReference.cache
+D:\Visual_Studio\_METORY_NUMERYCZNE\math_Numerical_Methods\matan_4_Console\obj\Debug\matan_4_Console.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\_METORY_NUMERYCZNE\math_Numerical_Methods\matan_4_Console\obj\Debug\matan_4_Console.exe
+D:\Visual_Studio\_METORY_NUMERYCZNE\math_Numerical_Methods\matan_4_Console\obj\Debug\matan_4_Console.pdb
