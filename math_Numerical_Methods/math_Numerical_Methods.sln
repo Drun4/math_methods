@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matan_4_Console", "matan_4_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matan_5_Console", "matan_5_Console\matan_5_Console.csproj", "{45A15462-11FA-44E4-9DC6-C6F68C6F5E86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matan_6_Console", "matan_6_Console\matan_6_Console.csproj", "{1CEFDAFE-EB7C-461A-8CE7-2786AD780AFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{45A15462-11FA-44E4-9DC6-C6F68C6F5E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45A15462-11FA-44E4-9DC6-C6F68C6F5E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45A15462-11FA-44E4-9DC6-C6F68C6F5E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CEFDAFE-EB7C-461A-8CE7-2786AD780AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CEFDAFE-EB7C-461A-8CE7-2786AD780AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CEFDAFE-EB7C-461A-8CE7-2786AD780AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CEFDAFE-EB7C-461A-8CE7-2786AD780AFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace matan_5_Console
 {
@@ -15,6 +11,7 @@ namespace matan_5_Console
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Metoda trapezow & simpsona\n");
             Console.WriteLine("num1 * x^3 + num1 * x^2 + num1 * x + num4 = 0\n");
             double[] num_table = new double[4];
             for (int i = 0; i < num_table.Length; i++)
