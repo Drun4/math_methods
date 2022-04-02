@@ -54,8 +54,8 @@ namespace matan_4_Console
                 yTable[3] * (x_xi[0] * x_xi[1] * x_xi[2]) / (x3_xi[0] * x3_xi[1] * x3_xi[2]);
 
             Console.WriteLine("\nf = " + f_1);
-
-            Console.WriteLine("\n\n32Wielomian Newtona:\n");
+            //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            Console.WriteLine("\n\nWielomian Newtona:\n");
             double[] xi_1 = new double[xTable.Length - 1];
             double[] xi_2 = new double[xTable.Length - 2];
             double[] xi_3 = new double[xTable.Length - 3];
@@ -95,18 +95,18 @@ namespace matan_4_Console
             Console.WriteLine("\nx-x_i\t\t[x_i,x_i+1]\t\t[x_i,x_i+1,x_i+2]\t\t[x_i,x_i+1,x_i+2,x_i+3]");
             for(int i = 0; i < xi.Length; i++)
             {
-                Console.Write($"{xi[i]}\t\t");
+                Console.Write($"{xi[i]:0.000}\t\t");
                 if (i < xi_1.Length)
                 {
-                    Console.Write($"{xi_1[i]}\t\t\t");
+                    Console.Write($"{xi_1[i]:0.000}\t\t\t");
                 }
                 if (i < xi_2.Length)
                 {
-                    Console.Write($"{xi_2[i]}\t\t\t\t");
+                    Console.Write($"{xi_2[i]:0.000}\t\t\t\t");
                 }
                 if (i < xi_3.Length)
                 {
-                    Console.Write($"{xi_3[i]}");
+                    Console.Write($"{xi_3[i]:0.000}");
                 }
                 Console.WriteLine("");
             }
