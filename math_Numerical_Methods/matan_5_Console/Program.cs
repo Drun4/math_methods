@@ -12,7 +12,7 @@ namespace matan_5_Console
         static void Main(string[] args)
         {
             Console.WriteLine("Metoda trapezow & simpsona\n");
-            Console.WriteLine("num1 * x^3 + num1 * x^2 + num1 * x + num4 = 0\n");
+            Console.WriteLine("num1 * x^3 + num2 * x^2 + num3 * x + num4 = 0\n");
             double[] num_table = new double[4];
             for (int i = 0; i < num_table.Length; i++)
             {
@@ -61,10 +61,17 @@ namespace matan_5_Console
                 }
             }
 
-            double K_simpson = h / 3 * (f_tab[0] + f_tab[numbeк_of_limits] + 2 * f_even + 4 * f_odd);
             Console.WriteLine($"\nTrapezoidal method : {K_trapez}");
-            Console.WriteLine($"Simpson's method : {K_simpson}");
-            Console.ReadKey();
+            if(numbeк_of_limits % 2 == 0)
+            {
+                double K_simpson = h / 3 * (f_tab[0] + f_tab[numbeк_of_limits] + 2 * f_even + 4 * f_odd);
+                Console.WriteLine($"Simpson's method : {K_simpson}");
+            }
+            else
+            {
+                Console.WriteLine($"Number of limits should be even for Simpson's method");
+            }
+            Console.ReadLine();
         }
     }
 }

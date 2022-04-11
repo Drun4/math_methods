@@ -112,7 +112,7 @@ namespace matan_4_Console
             }
             double f_2 = yTable[0] + xi_1[0] * xi[0] + xi_2[0] * xi[0] * xi[1] + xi_3[0] * xi[0] * xi[1] * xi[2];
             Console.WriteLine("\nf = " + f_2);
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
